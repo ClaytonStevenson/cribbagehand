@@ -2,7 +2,7 @@ import itertools
 
 #Collect cards for hand(1-5)
 #todo require int between 1-13 for this part
-print('Welcome. Please enter your cards as numbers (K=13, Q=12, J=11)')
+print('Welcome to CribbageHand. Please enter your cards as numbers (K=13, Q=12, J=11)')
 card1 = input('Enter the turn-up card:')
 
 card2 = input('Enter your first card:')
@@ -15,7 +15,7 @@ card5 = input('Enter your fourth card:')
 
 hand = card1, card2, card3, card4, card5
 
-print('Thanks your hand is:', hand)
+print('Thanks a bunch! Your hand is:', hand)
 
 #todo Have a way to redo hand if incorrect
 
